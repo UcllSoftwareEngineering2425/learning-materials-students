@@ -94,9 +94,4 @@ The generated pipeline is fine, but it has one disadvantage. It builds the sourc
 * One pipeline builds the deployable artifact and pushes it to a _package registry_, here the artifact is stored and can be viewed and downloaded forever
 * A second pipeline retrieves the artifact from the registry and deploys it to Azure
 
-By separating the two steps we can create more complex flows:
-
-* Build the source code and store it in the registry
-* Take it from the registry and deploy it to the production environment
-
 **Move or comment the created workflow file so that GitHub no longer runs the action. We will use parts of it in sprint-1.**
