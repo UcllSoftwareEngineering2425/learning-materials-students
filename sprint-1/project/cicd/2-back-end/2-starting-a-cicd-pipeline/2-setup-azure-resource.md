@@ -96,7 +96,7 @@ The generated pipeline is fine, but it has one disadvantage. It builds the sourc
 
 By separating the two steps we can create more complex flows:
 
-* Build the source code, store it in the registry and on a test environment
-* Once the application is verified on the test environment, deploy it to the production environment
+* Build the source code and store it in the registry
+* Take it from the registry and deploy it to the production environment
 
 **Move or comment the created workflow file so that GitHub no longer runs the action. We will use parts of it in sprint-1.**
